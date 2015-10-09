@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 		:git => "https://github.com/fhsjaagshs/FHSTwitterEngine.git",
 		:tag => "v2.0"
 	}
-	spec.source_files = "FHSTwitterEngine/*.{h,m}"
+	spec.source_files = "FHSTwitterEngine/*.{h,m}","FHSTwitterEngine/categories/*.{h,m}","FHSTwitterEngine/model/*.{h,m}"
 	spec.requires_arc = true
 	spec.platform = :ios
 	spec.ios.frameworks = 'Accounts', 'Social'	
